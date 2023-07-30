@@ -32,6 +32,8 @@ shaders = [
     'Shaders/world.frag',
     'Shaders/world.vert',
     'Shaders/ray_debug.comp',
+    'Shaders/ssao.frag',
+    'Shaders/ssao_blur.frag'
 ]
 
 glslang = find_program('glslangValidator')

@@ -23,6 +23,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 // screen.c -- master for refresh, status bar, console, chat, notify, etc
 
+#include "Shaders/shaders.h"
 #include "quakedef.h"
 
 #include "cfgfile.h"
@@ -1188,6 +1189,11 @@ SCR_DrawDone
 static void SCR_DrawDone (void *unused)
 {
 	r_framecount++;
+}
+
+static void SCR_DrawSSAO (void *unused)
+{
+	
 }
 
 /*

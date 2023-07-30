@@ -56,6 +56,8 @@ DECLARE_SHADER_SPV (showtris_frag);
 DECLARE_SHADER_SPV (update_lightmap_comp);
 DECLARE_SHADER_SPV (update_lightmap_rt_comp);
 DECLARE_SHADER_SPV (ray_debug_comp);
+DECLARE_SHADER_SPV (ssao_frag);
+DECLARE_SHADER_SPV (ssao_blur_frag);
 
 #undef DECLARE_SHADER_SPV
 
